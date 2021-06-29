@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+</head>
+
+<body>
+  <div class="my-2 py-5"></div>
+  <div class="container my-5 py-5">
+    <div class="row" style="position: relative; top: 0; left: 0;">
+      <div class="col-lg-7">
+        <div class="row">
+          <div class="col-lg-1">
+            <img src="images/illustration-box-desktop.svg" class="img1" />
+          </div>
+          <div class="col-lg-5 img2">
+            <img src="images/illustration-woman-online-desktop.svg" class="img2" />
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1>FAQ</h1>
+          </div>
+        </div>
+        <div class="row py-3">
+          <div class="col-lg-10">
+            <h6> How many team members can I invite?</h6>
+            <div class="collapse" id="content1"> You can invite up to 2 additional users on the Free plan. There is no
+              limit on
+              team members for the Premium </div>
+          </div>
+          <div class="col-lg-2">
+            <img data-toggle="collapse" href="#content1" role="button" aria-expanded="false" aria-controls="content1"
+              src="images/icon-arrow-down.svg" /> <br>
+          </div>
+        </div>
+        <div class="row py-3">
+          <div class="col-lg-10">
+            <h6> What is the maximum file upload size?</h6>
+            <div class="collapse" id="content2">more than 2GB. All files in your account must fit your allotted storage
+              space.</div>
+          </div>
+          <div class="col-lg-2">
+            <img data-toggle="collapse" href="#content2" role="button" aria-expanded="false" aria-controls="content2"src="images/icon-arrow-down.svg" />
+          </div>
+        </div>
+
+        <div class="row py-3">
+          <div class="col-lg-10">
+            <h6> How do I reset my password?</h6>
+            <div class="collapse" id="content3">Click “Forgot password” from the login page or “Change password” from
+              your profile page.
+              A reset link will be emailed to you.</div>
+          </div>
+          <div class="col-lg-2">
+            <img data-toggle="collapse" href="#content3" role="button" aria-expanded="false" aria-controls="content3" src="images/icon-arrow-down.svg"/>
+          </div>
+        </div>
+
+        <div class="row py-3">
+          <div class="col-lg-10">
+           <h6> Can I cancel my subscription?</h6>
+            <div class="collapse" id="content4">Yes! Send us a message and we’ll process your request no questions
+              asked.</div>
+          </div>
+          <div class="col-lg-2">
+            <img data-toggle="collapse" href="#content4" role="button" aria-expanded="false" aria-controls="content4"src="images/icon-arrow-down.svg" />
+          </div>
+        </div>
+        <div class="row py-3">
+          <div class="col-lg-10">
+            <h6> Do you provide additional support?</h6>
+            <div class="collapse" id="content5">Chat and email support is available 24/7. Phone lines are open during
+              normal business hours.</div>
+          </div>
+          <div class="col-lg-2">
+            <img data-toggle="collapse" href="#content5" role="button" aria-expanded="false" aria-controls="content5" src="images/icon-arrow-down.svg" /><br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Aliyu Nurudeen</a>
+  </div>
+
+<script src="js/jquery-3.4.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+html{
+	min-height:100%;
+}
+body{
+    background-image: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+.container{
+  background-color: white;
+  border-radius: 15px;
+  width: 70%;
+}
+
+.img2{
+  position: relative;
+  margin-left: -50px;
+}
+.img1{
+  position: absolute;
+  top:35%;
+  z-index: 1;
+  left: -70px;
+}
+img {
+  -webkit-filter: drop-shadow(5px 5px 5px #222 );
+  filter: drop-shadow(5px 5px 5px #222);
+}
